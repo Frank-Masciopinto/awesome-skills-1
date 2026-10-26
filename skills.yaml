@@ -21080,3 +21080,16 @@ skills:
   - business
   - analytics
   - productivity
+- id: frank-masciopinto-ironheights-skill-ironheights-skill-md
+  title: Ironheights Skill Scanner
+  description: Security check to run before installing a skill from ClawHub or GitHub. Statically scans the skill folder (SKILL.md and its files) for prompt injection, hidden text, pipe-to-shell installs, encoded payloads, credential reads, exfiltration and persistence, and reports findings with severities. Runs locally through the open-source ironheights CLI (npm), with optional SARIF output for CI. A static scan can miss things, so findings are a first pass, not a guarantee.
+  author: Frank-Masciopinto
+  author_url: https://github.com/Frank-Masciopinto
+  author_github: Frank-Masciopinto
+  license: Apache-2.0
+  license_url: https://raw.githubusercontent.com/Frank-Masciopinto/ironheights/main/LICENSE
+  skill_url: https://github.com/Frank-Masciopinto/ironheights/tree/main/skill/ironheights
+  skill_download_url: https://github.com/Frank-Masciopinto/ironheights/tree/main/skill/ironheights
+  tags:
+  - security
+  - development
